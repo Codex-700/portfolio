@@ -1,0 +1,58 @@
+body {
+    background-image: url(images/blak.webp);
+    background-size: cover;
+    background-position: fixed;
+}
+
+img {
+    height: 500px;
+    width: 450px;
+    border-radius: 100px;
+    float: right;
+    box-shadow: 10px 10px 15px darkblue;
+    /* padding: 15px; */
+    margin: 70px 20px;
+}
+
+.container {
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.container h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.container p{
+    font-size: 25px;
+}
+span {
+    color: blue;
+}
+
+.navv ul{
+    list-style-type: none;
+    background-color: darkblue;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navv a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.navv a:hover{
+  color: aquamarine;
+}
+
+.navv li{
+    float: right;
+}

@@ -1,0 +1,39 @@
+body {
+    background-image: url(images/blak.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.container {
+    text-align: center;
+}
+
+.navv ul{
+  list-style-type: none;
+  text-align: right;
+  background-color: darkblue;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navv a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.navv a:hover{
+  color: aquamarine;
+}
+
+.navv li{
+  float: right;
+}
